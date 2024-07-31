@@ -3,6 +3,7 @@
 // entc b1
 //experiment 2-To study and implement C++ Program Structure (Data Types)
 
+//exp2.1:-
 
 #include <iostream>
 using namespace std;
