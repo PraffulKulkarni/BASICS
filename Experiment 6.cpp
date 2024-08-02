@@ -12,27 +12,37 @@ int main() {
     }
 }
 
-//exp6.2 for and while together:
+
+// for loop to print sum:
 #include<iostream>
 using namespace std;
-int main() {
-    int i, j, k=0, n;
-    cout<<"Enter number of rows: ";
-    cin>>n;
-    for(i=1;i<=n;i++) {
-        for(j=1;j<=(n-i);j++) {
-            cout<<" ";
-            
-        }
-        while(k!=(2*i-1)) {
-            cout<<"* ";
-            k++;
-        }
-        k=0;
-        cout<<endl;
+int main(){
+    int sum=0, i, num;
+    cout<<"enter the numbers for sum: ";
+    
+    cin>> num;
+    for(i=1;i<=num;i++)
+    {
+         
+        sum=sum+i;
+          
+    }
+    cout<<"sum of first "<<num<<"natural numbers is "<<sum;
+}
+
+
+//exp6.2 for and while together:
+ #include<iostream>
+using namespace std;
+int main(){
+    int num, i;
+    cout<<"enter the end value";
+    cin>>num;
+    for(i=1;i<=num;i++)
+    {
+        cout<<i;
         
     }
-    cout<<endl;
 }
 
 // exp 6.3 nested for loop:
