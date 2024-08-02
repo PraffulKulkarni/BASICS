@@ -31,7 +31,7 @@ int main(){
 }
 
 
-//exp6.2 for and while together:
+//exp6.2 for  loop:
  #include<iostream>
 using namespace std;
 int main(){
