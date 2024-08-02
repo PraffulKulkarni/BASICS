@@ -47,29 +47,69 @@ int main(){
 
 // exp 6.3 nested for loop:
 
+ #include<iostream>
+using namespace std;
+int main(){
+    int i, j;
+    for(i=0;i<=3;i++)
+    {
+        for(j=0;j<=4;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+
+//printing inverted stars pattern:
+
 #include<iostream>
 using namespace std;
-int main()
-{ int i,j;
-   int matrixa[3][3]={{1,2,6} , {2,8,4} , {4,5,6} };
-   int matrixb[3][3] = {{2,7,1}, {2,1,3}, {1,1,2}};
-   int sum[3][3];
-   for ( int i =0; i<3; i++)
-   {
-    for (int j = 0; j<3; j++)
+int main(){
+    int i, j,rows=4;
+    for(i=0;i<=rows;i++)
     {
-        sum[i][j] = matrixa[i][j] + matrixb[i][j];
+        for(j=0;j<=i;j++)
+        {
+            cout<<" * ";
+        }
+        cout<<endl;
     }
-   }
+}
 
-   cout << "Sum :"<< endl;
-   for (int i = 0; i<3; i++)
-   {
-    for (int j = 0; j<3; j++)
+// printing star pattern:
+#include<iostream>
+using namespace std;
+int main() 
+{
+    int i, j, k, rows=8;
+    for(i=0;i<rows;i++)
     {
-        cout << sum[i][j] << " ";
+        for(j=rows-1;j>i;j--)
+        {
+            cout<<" ";
+        }
+        for(k=0;k<2*i+1;k++)
+        {
+            cout<<"*";
+        }  cout<<endl;
     }
-    cout << endl;
-   }
-   return 0;
+    
+}
+
+//printing numberas to n:
+#include<iostream>
+using namespace std;
+int main ()
+{ int a,i=1;
+    cout << "Enter end value: ";
+    cin >> a;
+    while( i <= a)
+    { 
+        cout<< " "<<i;
+        i++;
+    }
+    return 0;
+
+
 }
