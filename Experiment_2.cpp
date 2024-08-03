@@ -16,6 +16,11 @@ cout<<"size of float is "<<sizeof(float)<< " bytes"<<endl;
 cout<<"size of string is "<<sizeof(string)<< "  bytes"<<endl;
 
 }
+// output:
+size of integer is 4 bytes
+size of character is 1 bytes
+size of float is 4 bytes
+size of string is 32  bytes
 
 //exp2.2:-
 
@@ -31,4 +36,5 @@ staticExample();
 staticExample();
 return 0;
 }
-
+//output:
+0
