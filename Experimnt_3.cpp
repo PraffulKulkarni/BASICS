@@ -20,6 +20,12 @@
     return 0;
 }
 
+// output:
+enter first number: 5
+enter second number: 6
+a==b: 0
+
+
 //Relational  oprator:
 
  #include<iostream>
@@ -34,6 +40,10 @@
     cout<<"a!=b: "<<(a!=b)<<endl;
     return 0;
 }
+// output:
+enter first number: 7
+enter second number: 9
+a!=b: 1
 
 //exp 3.2 logical operator:
 
@@ -50,6 +60,8 @@
     cout<<"a&&b: "<<(a&&b)<<endl;
     return 0;
 }
+// output:
+a&&b: true
 
 //exp 3.3:
 
@@ -69,3 +81,11 @@
     
     return 0;
 }
+// output:
+a&b: 1
+a|b: 1
+a^b: 0
+a: -2
+a<<b: 2
+a>>b: 0
+
