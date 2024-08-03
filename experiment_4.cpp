@@ -113,6 +113,8 @@ Enter second number: 7
 a|b: 0111
 a&b: 0101
 a<<b: 0000
+
+    
 #include<iostream>
  using namespace std;
  int main()
@@ -126,3 +128,6 @@ a<<b: 0000
      {cout<<"a is smaller than 0";}
      return 0;
 }
+// output:
+enter a number3
+a is greater than 0
