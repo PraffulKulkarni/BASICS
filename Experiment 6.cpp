@@ -11,6 +11,17 @@ int main() {
         cout<<"Hello world("<<i+1<<")"<<endl;
     }
 }
+// output:
+Hello world(1)
+Hello world(2)
+Hello world(3)
+Hello world(4)
+Hello world(5)
+Hello world(6)
+Hello world(7)
+Hello world(8)
+Hello world(9)
+Hello world(10)
 
 
 // for loop to print sum:
@@ -29,7 +40,9 @@ int main(){
     }
     cout<<"sum of first "<<num<<"natural numbers is "<<sum;
 }
-
+// output:
+enter the numbers for sum: 4
+sum of first 4natural numbers is 10
 
 //exp6.2 for  loop:
  #include<iostream>
@@ -44,6 +57,9 @@ int main(){
         
     }
 }
+// output:
+enter the end value7
+1234567
 
 // exp 6.3 nested for loop:
 
@@ -60,7 +76,14 @@ int main(){
         cout<<endl;
     }
 }
+// output:
+ 
+*****
+*****
+*****
+*****
 
+    
 //printing inverted stars pattern:
 
 #include<iostream>
@@ -76,6 +99,12 @@ int main(){
         cout<<endl;
     }
 }
+// output:
+ * 
+ *  * 
+ *  *  * 
+ *  *  *  * 
+ *  *  *  *  * 
 
 // printing star pattern:
 #include<iostream>
@@ -96,7 +125,17 @@ int main()
     }
     
 }
+// putput:
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+ *************
+***************
 
+           
 //printing numberas to n:
 #include<iostream>
 using namespace std;
@@ -113,3 +152,6 @@ int main ()
 
 
 }
+// output:
+Enter end value: 6
+ 1 2 3 4 5 6
