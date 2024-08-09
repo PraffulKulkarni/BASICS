@@ -155,3 +155,32 @@ int main ()
 // output:
 Enter end value: 6
  1 2 3 4 5 6
+
+
+    //Exp 6.4 Floyd series in C++
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,row,n=1;
+    std::cout<<"Enter the number of rows : ";
+    std::cin>>row;
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<i+1;j++)
+        {
+            cout<<n<<" ";
+            n=n+1;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+//output
+Enter the number of rows : 5
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
