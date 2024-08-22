@@ -138,7 +138,7 @@ int main()
 OUTPUT:
 ![image](https://github.com/user-attachments/assets/b05f13b1-fa05-4f91-bb45-55edae920ba1)
 
-    ~~~
+~~~
 #include<iostream>
  using namespace std;
  int main()
