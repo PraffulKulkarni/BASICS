@@ -2,141 +2,27 @@
 //23070123099
 //experiment 6
 
-//exp 6.1 for loop:
+  //Printing numbers for loop:-
+//prafful kulkarni
 #include<iostream>
 using namespace std;
-int main() {
-    int i;
-    for(i=0;i<10;i++){
-        cout<<"Hello world("<<i+1<<")"<<endl;
-    }
-}
-// output:
-Hello world(1)
-Hello world(2)
-Hello world(3)
-Hello world(4)
-Hello world(5)
-Hello world(6)
-Hello world(7)
-Hello world(8)
-Hello world(9)
-Hello world(10)
-
-
-// for loop to print sum:
-#include<iostream>
-using namespace std;
-int main(){
-    int sum=0, i, num;
-    cout<<"enter the numbers for sum: ";
-    
-    cin>> num;
-    for(i=1;i<=num;i++)
-    {
-         
-        sum=sum+i;
-          
-    }
-    cout<<"sum of first "<<num<<"natural numbers is "<<sum;
-}
-// output:
-enter the numbers for sum: 4
-sum of first 4natural numbers is 10
-
-//exp6.2 for  loop:
- #include<iostream>
-using namespace std;
-int main(){
-    int num, i;
-    cout<<"enter the end value";
-    cin>>num;
-    for(i=1;i<=num;i++)
-    {
-        cout<<i;
-        
-    }
-}
-// output:
-enter the end value7
-1234567
-
-// exp 6.3 nested for loop:
-
- #include<iostream>
-using namespace std;
-int main(){
-    int i, j;
-    for(i=0;i<=3;i++)
-    {
-        for(j=0;j<=4;j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
-// output:
- 
-*****
-*****
-*****
-*****
-
-    
-//printing inverted stars pattern:
-
-#include<iostream>
-using namespace std;
-int main(){
-    int i, j,rows=4;
-    for(i=0;i<=rows;i++)
-    {
-        for(j=0;j<=i;j++)
-        {
-            cout<<" * ";
-        }
-        cout<<endl;
-    }
-}
-// output:
- * 
- *  * 
- *  *  * 
- *  *  *  * 
- *  *  *  *  * 
-
-// printing star pattern:
-#include<iostream>
-using namespace std;
-int main() 
+int main()
 {
-    int i, j, k, rows=8;
-    for(i=0;i<rows;i++)
+    int num;
+    cout << "Enter the end value: ";
+    cin >> num ;
+    for(int i = 1; i<=num; i++)
     {
-        for(j=rows-1;j>i;j--)
-        {
-            cout<<" ";
-        }
-        for(k=0;k<2*i+1;k++)
-        {
-            cout<<"*";
-        }  cout<<endl;
+        cout<< "  " <<i;
     }
-    
+    return 0;
 }
-// putput:
-       *
-      ***
-     *****
-    *******
-   *********
-  ***********
- *************
-***************
+//output:
+Enter the end value: 3
+  1  2  3
 
-           
-//printing numberas to n:
+//Printing numbers using while loop.
+// prafful kulkarni
 #include<iostream>
 using namespace std;
 int main ()
@@ -150,37 +36,201 @@ int main ()
     }
     return 0;
 
-
 }
 // output:
-Enter end value: 6
- 1 2 3 4 5 6
+Enter end value: 5
+ 1 2 3 4 5
+
+//Triangular star pattern:
+//prafful kulkarni
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int row;
+    cout<< "Enter number of rows: ";
+    cin >> row;
+    for ( int i =0; i<row ; i++)
+    { for(int j= 0 ; j<= i; j++)
+    {
+        cout << "*";
+    }
+    cout << endl;
+    }
+    return 0;
+}
+//output:
+Enter number of rows: 5
+*
+**
+***
+****
+*****
+
+//Square star pattern.
+//prafful kulkarni
+#include<iostream>
+using namespace std;
+int main ()
+{ int r;
+    cout<< "Enter number of rows: ";
+    cin>> r;
+    for(int i = 0; i<=r-1; i++)
+    { for (int j =0; j<=r-1; j++)
+    {
+        cout << "*" ;
+    }
+ cout << endl;
+    }
+    return 0;
+}
+//output:
+Enter number of rows: 6
+******
+******
+******
+******
+******
+******
 
 
-    //Exp 6.4 Floyd series in C++
+//Pyramid  star
+//prafful kulkarni
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int row;
+    cout<< "Enter number of rows: ";
+    cin >> row;
+    for ( int i =0; i<row ; i++)
+    { for ( int k = row-1 ; k>i; k--)
+    {
+        cout << " ";
+    }
+        for(int j= 0 ; j<2*i+1; j++)
+    {
+        cout << "*";
+    }
+    cout << endl;
+    }
+    return 0;
+}
+//output:
+Enter number of rows: 5
+    *
+   ***
+  *****
+ *******
+*********
+
+//Sum of the numbers:
+//prafful kulkarni
 #include<iostream>
 using namespace std;
 int main()
 {
-    int i,j,row,n=1;
-    std::cout<<"Enter the number of rows : ";
-    std::cin>>row;
-    for(i=0;i<row;i++)
+    int sum = 0, num;
+    cout << "Enter last number: ";
+    cin >> num;
+    for (int i = 1; i <= num; i++)
     {
-        for(j=0;j<i+1;j++)
-        {
-            cout<<n<<" ";
-            n=n+1;
-        }
-        cout<<endl;
+        sum = sum + i;
+
+
+    }
+    cout << "Sum is: "<<sum;
+    return 0;
+
+}
+//oitput;
+Enter last number: 4
+Sum is: 10
+
+//Floyd triangle:
+//prafful kulkarni
+#include<iostream>
+using namespace std;
+int main()
+{
+    int row, a=1;
+    cout<< "Enter number of rows: ";
+    cin >> row;
+    for ( int i =0; i<row ; i++)
+    { for(int j= 0 ; j<= i; j++)
+    { 
+        cout << " "<<a;
+        a++;
+    }
+
+    cout << endl;
     }
     return 0;
 }
+//output:
+Enter number of rows: 8
+ 1
+ 2 3
+ 4 5 6
+ 7 8 9 10
+ 11 12 13 14 15
+ 16 17 18 19 20 21
+ 22 23 24 25 26 27 28
+ 29 30 31 32 33 34 35 36
 
-//output
-Enter the number of rows : 5
-1 
-2 3 
-4 5 6 
-7 8 9 10 
-11 12 13 14 15 
+
+//Floyd triangle of alphabets
+// prafful kulkarni
+#include<iostream>
+using namespace std;
+int main()
+{
+    int row; 
+    char a='A';
+    cout<< "Enter number of rows: ";
+    cin >> row;
+    for ( int i =0; i<row ; i++)
+    { for(int j= 0 ; j<= i; j++)
+    { 
+        cout << " "<<a;
+        a++;
+    }
+
+    cout << endl;
+    }
+    return 0;
+}
+//output:
+Enter number of rows: 5
+ A
+ B C
+ D E F
+ G H I J
+ K L M N O
+
+//Password validation:
+//prafful kulkarni
+#include<iostream>
+#include<string>
+using namespace std;
+int main ()
+{ string pass;
+    do
+{
+ cout << "Enter a password: ";
+ cin >> pass;
+ if (pass=="SIT")
+ {
+    cout << "Success !!";
+ }
+ else
+ {
+    cout << "Try again"<<endl;
+ }
+} 
+while (pass != "SIT");
+return 0;
+}
+//output:
+Enter a password: praffulsymbi
+Try again
