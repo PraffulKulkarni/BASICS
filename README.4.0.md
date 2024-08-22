@@ -1,5 +1,5 @@
 EXPERIMENT 4 To study and implement C++ Bitwise Operators: -
-4. Bitwise Operators
+#  Bitwise Operators
 Bitwise Operators are the operators that are used to perform operations on the bit level on the integers.
 While performing this operation integers are considered as sequences of binary digits. In C++, we have various types of Bitwise Operators.
 
@@ -30,7 +30,7 @@ This operator shifts the bits of Integer to left side by specific number (As men
 Right Shift (>>)
 This operator shifts the bits of Integer to right side by specific number (As mentioned) . This right shift operation is equivalent to dividing the integer by 2 power number of positions shifted. The symbol which is used to represent Left Shift Operator is >>.
 
-  code: 
+~~~  code: 
   
   //Prafful Kulkarni
 //23070123099
@@ -50,12 +50,11 @@ int main()
     cout<<"a==b: "<<(a==b)<<endl;
     return 0;
 }
+~~~
 
-OUTPUT:
-Enter first number: 123
-Enter second number: 123
-a==b: 1
+//OUTPUT:![image](https://github.com/user-attachments/assets/f5b5c6f6-aaca-4a15-b23b-6bab86bbc43d)
 
+~~~
 
 #include<iostream>
 using namespace std;
@@ -70,14 +69,13 @@ int main()
     cout<<"a==b: "<<(a==b)<<endl;
     return 0;
 }
+~~~
 
 OUTPUT:
-Enter first number: 22
-Enter second number: 
-22
-a==b: false
+![image](https://github.com/user-attachments/assets/7eb669f9-0b45-487a-b274-bb4d899014f0)
 
 
+~~~
 #include<iostream>
 using namespace std;
 int main()
@@ -88,10 +86,11 @@ int main()
     cout<<"a&&b: "<<(a&&b)<<endl;
     return 0;
 }
-
+~~~
 OUTPUT:
-a&&b: false
+![image](https://github.com/user-attachments/assets/d31fe099-0bb4-45f4-97a0-e8b1a21a86f4)
 
+~~~
 
 #include<iostream>
 using namespace std;
@@ -110,18 +109,13 @@ int main()
     cout<<"a^b: "<<(a^b)<<endl;
     return 0;
 }
+~~~
 
 OUTPUT:
-Enter first number: 3
-Enter second number: 2
-a|b: 3
-a&b: 2
-a<<b: 12
-ab: 0
-~b: -3
-a^b: 1
+ ![image](https://github.com/user-attachments/assets/94f2e7b5-d9eb-40eb-84a7-ad4d5c4a1e92)
 
 
+~~~
 #include<iostream>
 #include<bitset>
 using namespace std;
@@ -140,15 +134,11 @@ int main()
     cout<<"a^b: "<<bitset<4>(a^b)<<endl;
     return 0;
 }
-
+~~~
 OUTPUT:
-Enter first number: 5
-Enter second number: 7
-a|b: 0111
-a&b: 0101
-a<<b: 0000
+![image](https://github.com/user-attachments/assets/b05f13b1-fa05-4f91-bb45-55edae920ba1)
 
-    
+    ~~~
 #include<iostream>
  using namespace std;
  int main()
@@ -162,8 +152,9 @@ a<<b: 0000
      {cout<<"a is smaller than 0";}
      return 0;
 }
+~~~
 // output:
-enter a number3
-a is greater than 0
+![image](https://github.com/user-attachments/assets/a9450b4d-075f-4261-b927-ef18309286c3)
+
 
  
