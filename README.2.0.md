@@ -1,8 +1,8 @@
 EXPERIMENT 2 To study and implement C++ Program Structure (Data types): -
-AIM: -
+# AIM: -
 To learn how to run and implement the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes.
 
-Theory: -
+# Theory: -
 All variables use data type during declaration to restrict the data storage type. Whenever a variable is defined in C++, the compiler allocates some memory based on the data type with which it is declared. Every data type requires a different amount of memory. C++ supports a wide variety of data types, and the programmer can select the data type appropriate to the requirements of the applications. Data types specify the size and types of values to be stored. However, storage representation and machine instructions to manipulate each data type differ from machine to machine. C++ has the following data types: - Character (ch) Integer (int) Boolean (bool) Floating point (float) Double Floating point (double) Void () Wide Character sizeof() operator
 
 These data types can have modifiers, for example: - Short Long Signed Unsigned
@@ -66,7 +66,7 @@ long double
 
 wchar_t (2 or 4 bytes) (1 to wide character)
 
-code for dataypes:
+~~~code for dataypes:
  #include <iostream>
 using namespace std;
 int main()
@@ -78,13 +78,13 @@ cout<<"size of float is "<<sizeof(float)<< " bytes"<<endl;
 cout<<"size of string is "<<sizeof(string)<< "  bytes"<<endl;
 
 }
+~~~
 // output:
-size of integer is 4 bytes
-size of character is 1 bytes
-size of float is 4 bytes
-size of string is 32  bytes
+![image](https://github.com/user-attachments/assets/d4ad0d71-2b90-496c-9612-8ba9628e6d81)
 
-code for static datatype:
+
+
+~~~code for static datatype:
 #include<iostream>
 Using namespace std;
 void staticExample(){
@@ -96,8 +96,11 @@ int main(){
 staticExample();
 staticExample();
 return 0;
+
 }
+~~~
 //output:
-0
+![image](https://github.com/user-attachments/assets/006545c2-4ceb-4166-9df4-3c9410236b99)
+
 
 
