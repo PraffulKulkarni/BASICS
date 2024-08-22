@@ -1,17 +1,17 @@
-Aim
+# Aim
 To learn the execution and use of if statements & switch in c++.
 
-Software Used
+# Software Used
 VS Code
 
-Problem Statement
+# Problem Statement
 1.) Write a c++ program to check if the year is a leap year. 
 2.) Write a c++ program to validate the password.
 3.) Write a c++ program to print days of week.
 4.) Write a c++ program to make a simple calculator.
 5.) Write a c++ program to evaluate grades.
 
-Theory
+# Theory
 Use if to specify a block of code to be executed, if a specified condition is true.
 
 Use else to specify a block of code to be executed, if the same condition is false.
@@ -24,14 +24,14 @@ The switch statement in C++ is a flow control statement that is used to execute 
 We can create different cases for different values of the switch expression. 
 We can specify any number of cases in the switch statement but the case value can only be of type int or char.
 
-codes:
+# codes:
 // prafful kulkarni
 // 2307012099
 //entc b1
 //experiment 5:- To study and implement C++ decision making statements
 
 // to check if the entered password is correct or wrong:
-
+~~~
 #include<iostream>
 using namespace std;
 int main()
@@ -49,11 +49,12 @@ else
 cout<<"access denied";
 }
 }
+~~~
 //output:
-enter your password: iowef
-access denied
+![image](https://github.com/user-attachments/assets/b2b3004e-d212-411f-a4d5-fc9d8ac98742)
 
-// program to ceck the grade:
+
+~~~// program to ceck the grade:
 #include <iostream>
 using namespace std;
 int main()
@@ -71,14 +72,15 @@ else{
 cout<< "Grade: F"<<endl;
 }
 }
+~~~
 
 //Output:
-enter your score: 79
- Grade: C
+![image](https://github.com/user-attachments/assets/cea1578c-6204-4c96-bae0-e566b0c7f51b)
+
 
 switch calculator:
 
-\\Prafful kulkarni
+~~~\\Prafful kulkarni
 \\23070123099
 #include<iostream>
 using namespace std;
@@ -133,19 +135,12 @@ case 4 :
 }
 return 0;
 }
-
+~~~
 output:
-Calculator
-1: Addition
-2: Subtraction
-3: Multiplication
-4: Division
-Enter operation choice: 3
-Enter numbers: 2
-3
-product is = 6
+ ![image](https://github.com/user-attachments/assets/81e7744a-d92d-465b-ba86-bc80f0799487)
 
- week program:
+
+~~~ week program:
 #include<iostream>
 using namespace std;
 int main()
@@ -192,20 +187,13 @@ cout<< "Day is Sunday";
 }
 }
 }
+~~~
 
 OUTPUT:
-DAY
-1: Monday
-2: Tuesday
-3: Wednesday
-4: Thursday
-5: Friday
-6: Saturday
-7: Sunday
-Enter of day: 3
-Day is Wednesday
+![image](https://github.com/user-attachments/assets/e4994927-ff93-4417-8982-c9b032e2a572)
 
-LEAP YEAR PROGRAM:
+
+~~~LEAP YEAR PROGRAM:
 
 #include<iostream>
 using namespace std;
@@ -221,7 +209,7 @@ int main()
     { cout<<y<<" is not a leap year";}
     return 0;
 }
-
+~~~
 OUTPUT:
-Enter year to check: 2006
-2006 is not a leap year
+![image](https://github.com/user-attachments/assets/f04d5965-48ae-41cc-b6f7-83f57d3232a4)
+
