@@ -59,16 +59,17 @@ code:
     cin>>b;
     cout<<"a==b: "<<(a==b)<<endl;
     return 0;
-}~~~
+}
+~~~
 
 // output:
 ![image](https://github.com/user-attachments/assets/11664792-f777-4330-9acc-af4939abc4f5)
 
 
 
-//Relational  oprator:
+~~~//Relational  oprator:
 
-~~~ #include<iostream>
+ #include<iostream>
  using namespace std;
  int main()
 {
@@ -79,14 +80,15 @@ code:
     cin>>b;
     cout<<"a!=b: "<<(a!=b)<<endl;
     return 0;
-}~~~
+}
+~~~
 // output:
 ![image](https://github.com/user-attachments/assets/423c4229-e251-40f1-812e-334588f14892)
 
 
-//exp 3.2 logical operator:
+~~~//exp 3.2 logical operator:
 
-~~~ #include<iostream>
+ #include<iostream>
  using namespace std;
  int main()
 {
@@ -98,14 +100,15 @@ code:
     cout<<boolalpha;
     cout<<"a&&b: "<<(a&&b)<<endl;
     return 0;
-}~~~
+}
+~~~
 // output:
 ![image](https://github.com/user-attachments/assets/5bc57743-1ac3-40e6-8812-ecc71cc5aa23)
 
 
-//exp 3.3:
+~~~//exp 3.3:
 
-~~~ #include<iostream>
+#include<iostream>
  using namespace std;
  int main()
 { int a,b;
@@ -120,7 +123,8 @@ code:
          cout<<"a>>b: "<<(a>>b)<<endl;
     
     return 0;
-}~~~
+}
+~~~
 // output:
 ![image](https://github.com/user-attachments/assets/f7396f8d-ab2c-4109-bed9-8980efb66117)
 
