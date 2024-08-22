@@ -1,12 +1,12 @@
 EXPERIMENT 3 To study and implement operators in C++ : -
 
-DIFFERENT TYPES OF OPERATORS
+# DIFFERENT TYPES OF OPERATORS
 There are different types of operations used in C++ to perform different actions.
 An operator is a symbol that operates on a value to perform specific mathematical or logical computations.
 They form the foundation of any programming language. In C++, we have built-in operators to provide the required functionality.
 An operator operates the operands. For example, int c = a + b; Here, ‘+’ is the addition operator. ‘a’ and ‘b’ are the operands that are being ‘added’.
 
-Operators in C++ can be classified into 6 types:
+# Operators in C++ can be classified into 6 types:
 Arithmetic Operators
 Relational Operators
 Logical Operators
@@ -46,7 +46,7 @@ code:
 
 //exp 3.1
 
-//arithmetic operator: 
+~~~//arithmetic operator: 
 
  #include<iostream>
  using namespace std;
@@ -59,17 +59,16 @@ code:
     cin>>b;
     cout<<"a==b: "<<(a==b)<<endl;
     return 0;
-}
+}~~~
 
 // output:
-enter first number: 5
-enter second number: 6
-a==b: 0
+![image](https://github.com/user-attachments/assets/11664792-f777-4330-9acc-af4939abc4f5)
+
 
 
 //Relational  oprator:
 
- #include<iostream>
+~~~ #include<iostream>
  using namespace std;
  int main()
 {
@@ -80,15 +79,14 @@ a==b: 0
     cin>>b;
     cout<<"a!=b: "<<(a!=b)<<endl;
     return 0;
-}
+}~~~
 // output:
-enter first number: 7
-enter second number: 9
-a!=b: 1
+![image](https://github.com/user-attachments/assets/423c4229-e251-40f1-812e-334588f14892)
+
 
 //exp 3.2 logical operator:
 
- #include<iostream>
+~~~ #include<iostream>
  using namespace std;
  int main()
 {
@@ -100,13 +98,14 @@ a!=b: 1
     cout<<boolalpha;
     cout<<"a&&b: "<<(a&&b)<<endl;
     return 0;
-}
+}~~~
 // output:
-a&&b: true
+![image](https://github.com/user-attachments/assets/5bc57743-1ac3-40e6-8812-ecc71cc5aa23)
+
 
 //exp 3.3:
 
- #include<iostream>
+~~~ #include<iostream>
  using namespace std;
  int main()
 { int a,b;
@@ -121,11 +120,8 @@ a&&b: true
          cout<<"a>>b: "<<(a>>b)<<endl;
     
     return 0;
-}
+}~~~
 // output:
-a&b: 1
-a|b: 1
-a^b: 0
-a: -2
-a<<b: 2
-a>>b: 0
+![image](https://github.com/user-attachments/assets/f7396f8d-ab2c-4109-bed9-8980efb66117)
+
+# conclusion: we learnt about different operators used in a code
