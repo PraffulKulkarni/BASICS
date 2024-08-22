@@ -3,17 +3,17 @@
 
 To learn about VS code and getting input from user and displaying it.
 
-Software Used
+ # Software Used
 VS Code
 
-Problem Statement
+# Problem Statement
 1.) Write a program to print simple 'Hello world' message.
 
 2.) Write a program to get the input from user and displaying it.
 
 3.) Write a program to create a basic calculator.
 
-Theory
+# Theory
 To print a message or output we use 'cout' .
 
 The namespace is used to decrease or limit the scope of any variable or function.
@@ -21,7 +21,7 @@ The namespace is used to decrease or limit the scope of any variable or function
 'endl' is used to move the cursor to the new line.
 
 
-code:
+~~~code:
 #include <iostream>
 using namespace std;
 int main()
@@ -33,14 +33,15 @@ string a;
     getline(cin,a);
     cout<<"Hello "<<a;
     return 0;
-} 
+}
+~~~
 
 //output:
-Enter your name  prafful
-Hello prafful
+![image](https://github.com/user-attachments/assets/46940c68-2313-410e-942e-d01a09e264d3)
 
 
-// ADDITION
+
+~~~// ADDITION
 #include <iostream>
 using namespace std;
 int main()
@@ -52,15 +53,15 @@ cin >> b;
 c=a+b;
 cout << "the sum is "<<c;
 return 0;
-} 
+}
+~~~
 
 //Output:
-enter first number 3
-enter the second number 5
-the sum is 8
+![image](https://github.com/user-attachments/assets/3201d256-2162-49ed-a7e6-38a14d9a8db0)
 
 
-// DIVISION
+
+~~~// DIVISION
 #include <iostream>
 using namespace std;
 int main()
@@ -73,13 +74,13 @@ c=a/b;
 cout << "the QUOTIENT is "<<c;
 return 0;
 }
+~~~
 
 //output:
-enter first number 5
-enter the second number 6
-the QUOTIENT is 0.833333
+![image](https://github.com/user-attachments/assets/34b1b2ae-603c-4304-927e-6ed69dcb4a92)
 
-// MULTIPLICATION
+
+~~~// MULTIPLICATION
 
 #include <iostream>
 using namespace std;
@@ -92,9 +93,9 @@ cin >> b;
 c=a*b;
 cout << "the RESULT is "<<c;
 return 0;
-} 
+}
+~~~
 
 // output:
-enter first number 1
-enter the second number 9
-the RESULT is 9
+![image](https://github.com/user-attachments/assets/2169fb8a-8e95-42de-880b-531533796150)
+
