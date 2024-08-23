@@ -260,3 +260,48 @@ Enter element(1,0)3
 Enter element(1,1)7
 8
 6
+
+     // to transpose a matrix;
+      #include<iostream>
+using namespace std;
+int main()
+{
+     int i,j,row,col;
+   cout<<"enter row and column: ";
+   cin>>row>>col;
+   
+   int arr[row][col],arr2[col][row];
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {
+            cout<<"Enter element("<<i<<","<<j<<")";
+            cin>>arr[i][j];
+             
+        }
+        
+    }
+      
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {
+             arr2[i][j]=arr[j][i]; 
+        }
+    
+    }
+     for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {
+              cout<<arr2[i][j]; 
+        }
+    cout<<endl;
+    }
+    
+    
+    
+}
+
+//output:
+
