@@ -205,3 +205,58 @@ multiplication of the matrix=
 161 224 
 57 70 
 
+//to print sum of diagonal elements:
+        #include<iostream>
+using namespace std;
+int main()
+{
+     int i,j,row,col,sum1=0,sum2=0;
+   cout<<"enter row and column: ";
+   cin>>row>>col;
+   
+   int arr1[row][col];
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {
+            cout<<"Enter element("<<i<<","<<j<<")";
+            cin>>arr1[i][j];
+             
+        }
+        
+    }
+     
+    
+ 
+     for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {
+            if(i==j)
+            {
+                 sum1+=arr1[i][j];
+                
+              
+        }if(i+j==row-1)
+        {
+           sum2+=arr1[i][j];
+        }  
+        
+        
+    }
+    }
+     cout<<sum1<<endl;
+            
+             cout<<sum2;
+        
+}
+
+//output:
+enter row and column: 2
+2
+Enter element(0,0)1
+Enter element(0,1)3
+Enter element(1,0)3
+Enter element(1,1)7
+8
+6
