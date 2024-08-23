@@ -56,38 +56,12 @@ int main()
 }
 
 //output:
+Enter the number of elements you want to enter : 3
+Enter element no 1 2
+Enter element no 2 3
+Enter element no 3 4
+The reversed elements of the array are:  4 3 2
 
-
-//7.3:
- #include <iostream>
-using namespace std;
-int main() {
-    int n, b,c=0; 
-    cout<<"Enternumber of elements you want in array: ";
-    cin>>n;
-    int a[n];
-    cout<<"Enter elements of array: ";
-    for(int i=0;i<n;i++){
-        cin>>a[i];}
-        cout<<"Enter an element to be searched: ";
-        cin>>b;
-        for(int i=0;i<n;i++){
-            if(a[i]==b){
-                cout<<i<<" "<<endl;
-                c++;
-                
-            }
-             
-        if(a[i]!=b)
-        {
-            cout<<"error";
-        }
-        
-            
-        }cout<<"The entered number is printed"<<c<<"times";
-         
-         
-        }
 
 // to print sum and avg of arrays:
    #include <iostream>
@@ -108,10 +82,18 @@ int main() {
         sum=a[i]+sum;
         avg=sum/n;
       }
-        cout<<sum<<endl;
-        cout<<avg;
+        cout<<"sum is: "<<sum<<endl;
+        cout<<"avg is: "<<avg;
          
 }
+//output:
+Enternumber of elements you want in array: 4
+Enter elements of array: 3
+4
+5
+6
+sum is: 18
+avg is: 4.5
 
 //print max and min of arrays entered:
 #include <iostream>
@@ -142,3 +124,123 @@ int main() {
  cout<<"max is: "<<max<<endl;
  cout<<"min is: "<<min;
 }
+//output:
+Enternumber of elements you want in array: 3
+Enter elements of array: 2
+6
+7
+max is: 7
+min is: 2
+
+
+// concatenation of array:
+#include<iostream>
+using namespace std;
+int main() 
+{
+    string name("Prafful");
+    string surname("kulkarni");
+    name.append(surname);
+    cout<<name<<endl;
+}
+
+//output:
+Praffulkulkarni
+
+//palindrome program:
+#include<iostream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main() 
+{
+    string s1, s2;
+    cout << "Enter a word to check: ";
+    cin>>s1;
+    s2=s1;
+    reverse(s1.begin(), s1.end());
+    if (s2==s1) 
+    {
+        cout<<"It is a palindrome";
+    }
+    else cout<<"It is not a palindrome";
+}
+
+// output:
+Enter a word to check: mom
+ It is a palindrome
+
+
+// reverse string:
+#include<iostream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    string a= "symbiosis";
+    reverse(a.begin(), a.end());
+    cout<<"reverse string is:"<<a<<endl;
+    return 0;
+    }
+
+// output:
+reverse string is:sisoibmys
+
+//to search element:
+    #include<iostream>
+using namespace std;
+int main()
+{
+     int n, i, j, s, c = 0, flag = 0;
+cout << "Enter the number of elements: ";
+cin >> n;
+int a[n];
+cout << "Enter array elements: ";
+for( i = 0; i<n ; i++)
+{
+    cin >> a[i];
+}
+cout << "Enter an element to be searched in an array: ";
+    cin >> s;
+for (j= 0 ; j<n; j++)
+{
+    if ( a[j]==s)
+    {
+cout<< "The element"<<" "<< s<< " " << "is present at location: "<<j<<endl;
+c++;
+flag =1;
+    }
+}
+
+if( flag ==0)
+{
+    cout<< "The element"<< " "<< s << " "<< "is not present in the given array";
+}
+else
+{
+    cout << "The element" << " "<< s << " "<< "occurs"<< " "<< c << " "<< "times.";
+}
+return 0;
+}
+//output:
+Enter the number of elements: 4
+Enter array elements: 2
+3
+4
+5
+Enter an element to be searched in an array: 3
+The element 3 is present at location: 1
+The element 3 occurs 1 times.
+
+   // print array:
+    #include <iostream>
+using namespace std;
+int main()
+{
+    char s[]= "home";
+    cout<<s<<endl;
+    return 0;
+}
+//output:
+home
