@@ -304,4 +304,13 @@ int main()
 }
 
 //output:
-
+enter row and column: 2
+3
+Enter element(0,0)1
+Enter element(0,1)2
+Enter element(0,2)5
+Enter element(1,0)4
+Enter element(1,1)3
+Enter element(1,2)4
+142
+230
