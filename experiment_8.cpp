@@ -120,4 +120,5 @@ Enter element(1,1)5
 35
 79
 
-  
+// multiplication of arrays:
+     
