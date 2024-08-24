@@ -238,3 +238,5 @@ int main()
 //output:
 ![image](https://github.com/user-attachments/assets/0003fb61-ec1b-4adb-b317-7210d6647a9b)
 
+# Conclusion:
+we learnt to create an array and to execute different programs based on arrays.
