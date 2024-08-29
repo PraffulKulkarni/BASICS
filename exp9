@@ -1,0 +1,84 @@
+EXPERIMENT 9
+// PRAFFUL KULKARNI
+//23070123099
+
+// CODE TO PRINT POINTERS VALUE:
+
+ #include <iostream>
+using namespace std;
+int main()
+{
+    int a = 10;
+    int *ptr;
+    ptr=&a;
+    cout<<*ptr<<endl;
+    cout<<a<<endl;
+     
+    cout<<&a<<endl;
+    ptr++;
+    cout<<ptr<<endl;
+}
+
+// code to print and increment charcters:
+ #include <iostream>
+using namespace std;
+int main()
+{
+    char a = 'A';
+    char *ptr;
+    ptr=&a;
+    cout<<*ptr<<endl;
+    cout<<a<<endl;
+     
+    cout<<(void*)ptr<<endl;
+    cout<<(void*)&a<<endl;
+    ptr++;
+    cout<<(void*)ptr<<endl;
+}
+
+
+// code to print and increment float values:
+ #include <iostream>
+using namespace std;
+int main()
+{
+    float a = 'A';
+    float *ptr;
+    ptr=&a;
+    cout<<*ptr<<endl;
+    cout<<a<<endl;
+     
+    cout<<ptr<<endl;
+    cout<<  &a<<endl;
+    ptr++;
+    cout<< ptr<<endl;
+}
+
+// access array using pointer:
+ #include <iostream>
+using namespace std;
+int main()
+{
+    int i,*ptr;
+    int a[50]={1,2,3,4,5};
+    ptr=&a[0];
+    for(i=0;i<5;i++)
+    {
+        cout<<*ptr<<endl;
+        ptr++;
+    }
+}
+//same without using pointer variable:
+ #include <iostream>
+using namespace std;
+int main()
+{
+    int i,*ptr;
+    int a[50]={1,2,3,4,5};
+    ptr=a;
+    for(i=0;i<5;i++)
+    {
+        cout<<*(a+i)<<endl;
+        ptr++;
+    }
+}
