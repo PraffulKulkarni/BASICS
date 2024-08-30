@@ -236,7 +236,7 @@ int main()
 }
 ~~~
 
-#include<iostream>
+~~~#include<iostream>
 using namespace std;
 int main()
 {
@@ -271,6 +271,7 @@ else
 }
 return 0;
 }
+~~~
 // output:
 ![image](https://github.com/user-attachments/assets/e7c3094b-9163-4aaf-a8a6-5d8897aa62c3)
 
