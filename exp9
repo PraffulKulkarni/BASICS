@@ -2,83 +2,130 @@ EXPERIMENT 9
 // PRAFFUL KULKARNI
 //23070123099
 
-// CODE TO PRINT POINTERS VALUE:
+// CODE TO PRINT POINTERS VALUE:(int)
 
  #include <iostream>
 using namespace std;
 int main()
 {
-    int a = 10;
+    int a = 6;
     int *ptr;
     ptr=&a;
-    cout<<*ptr<<endl;
-    cout<<a<<endl;
-     
-    cout<<&a<<endl;
-    ptr++;
-    cout<<ptr<<endl;
+   cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "the address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
 }
+//output:
+The value pointed by *ptr is: 6
+The value in b is: 6
+The value in pointer variable ptr is: 0x7ffe6e8c4c44
+the address of variable b is: 0x7ffe6e8c4c44
+After increment the value in pointer variable ptr is: 0x7ffe6e8c4c48
 
 // code to print and increment charcters:
- #include <iostream>
+ #include<iostream>
 using namespace std;
 int main()
 {
-    char a = 'A';
+    char a = 'c'; 
+    
+
     char *ptr;
-    ptr=&a;
-    cout<<*ptr<<endl;
-    cout<<a<<endl;
-     
-    cout<<(void*)ptr<<endl;
-    cout<<(void*)&a<<endl;
-    ptr++;
-    cout<<(void*)ptr<<endl;
+
+    ptr = &a;
+
+    cout<< "The value pointed by *ptr is"<<*ptr << endl;
+    cout << "The value in b is" <<a << endl;
+    cout << "The value in pointer variable ptr is"<<(void*)ptr << endl;
+
+    cout << "the address of variable b is "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
+
+    
 }
+
+//output:
+The value pointed by *ptr isc
+The value in b isc
+The value in pointer variable ptr is0x7fffce0de937
+the address of variable b is c7
+After increment the value in pointer variable ptr is: 0x7fffce0de938
 
 
 // code to print and increment float values:
- #include <iostream>
+  #include <iostream>
 using namespace std;
 int main()
 {
     float a = 'A';
     float *ptr;
     ptr=&a;
-    cout<<*ptr<<endl;
-    cout<<a<<endl;
-     
-    cout<<ptr<<endl;
-    cout<<  &a<<endl;
-    ptr++;
-    cout<< ptr<<endl;
+     cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "the address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
 }
 
+//output:
+ The value pointed by *ptr is: 65
+The value in b is: 65
+The value in pointer variable ptr is: 0x7fff48c3e4c4
+the address of variable b is: 0x7fff48c3e4c4
+After increment the value in pointer variable ptr is: 0x7fff48c3e4c8
+
 // access array using pointer:
- #include <iostream>
+ #include<iostream>
 using namespace std;
 int main()
 {
-    int i,*ptr;
-    int a[50]={1,2,3,4,5};
-    ptr=&a[0];
-    for(i=0;i<5;i++)
+    int *ptr;
+    int a[5] = { 1,2,4,8,9};
+    ptr = &a[0];
+    int i;
+    for(i=0 ; i<5 ; i++)
     {
-        cout<<*ptr<<endl;
-        ptr++;
+        cout << "Element "<< i+1 <<" "<<"="<<" "<<*ptr << endl;
+        ptr ++;
+
     }
 }
+
+//output:
+Element 1 = 1
+Element 2 = 2
+Element 3 = 4
+Element 4 = 8
+Element 5 = 9
+
+
+
 //same without using pointer variable:
- #include <iostream>
+  #include<iostream>
 using namespace std;
 int main()
 {
-    int i,*ptr;
-    int a[50]={1,2,3,4,5};
-    ptr=a;
-    for(i=0;i<5;i++)
+    int *ptr;
+    int a[5] = { 1,2,4,8,9};
+    ptr = &a[0];
+    int i;
+    for(i=0 ; i<5 ; i++)
     {
-        cout<<*(a+i)<<endl;
-        ptr++;
+        cout << "Element "<< i+1 <<" "<<"="<<" "<<*(a+i) << endl;
+        ptr ++;
+
     }
 }
+//output:
+Element 1 = 1
+Element 2 = 2
+Element 3 = 4
+Element 4 = 8
+Element 5 = 9
