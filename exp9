@@ -112,20 +112,18 @@ Element 5 = 9
 using namespace std;
 int main()
 {
-    int *ptr;
-    int a[5] = { 1,2,4,8,9};
-    ptr = &a[0];
-    int i;
-    for(i=0 ; i<5 ; i++)
+    int i, *ptr;
+    int a[50]={1,2,3,4,5};
+    ptr=&a[0];
+    for(i=0;i<5;i++)
     {
-        cout << "Element "<< i+1 <<" "<<"="<<" "<<*(a+i) << endl;
-        ptr ++;
-
+        cout<<*ptr<<endl;
+        ptr++;
     }
 }
 //output:
-Element 1 = 1
-Element 2 = 2
-Element 3 = 4
-Element 4 = 8
-Element 5 = 9
+1
+2
+3
+4
+5
