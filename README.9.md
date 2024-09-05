@@ -114,23 +114,23 @@ int main()
 
 
 ~~~//same without using pointer variable:
-  #include<iostream>
+   #include<iostream>
 using namespace std;
 int main()
 {
-    int *ptr;
-    int a[5] = { 1,2,4,8,9};
-    ptr = &a[0];
-    int i;
-    for(i=0 ; i<5 ; i++)
+    int i, *ptr;
+    int a[50]={1,2,3,4,5};
+    ptr=&a[0];
+    for(i=0;i<5;i++)
     {
-        cout << "Element "<< i+1 <<" "<<"="<<" "<<*(a+i) << endl;
-        ptr ++;
-
+        cout<<*ptr<<endl;
+        ptr++;
     }
 }
 ~~~
- ![image](https://github.com/user-attachments/assets/e1eaae40-6be7-492f-bd3a-0eb0d57058f9)
+ //output:
+ ![image](https://github.com/user-attachments/assets/35a9bed3-ed22-4c4c-9d9c-4c64546a2926)
+
 
  # Conclusion:
  We learnt about the pointer variables in this experiment.
