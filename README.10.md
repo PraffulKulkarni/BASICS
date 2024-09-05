@@ -25,19 +25,20 @@ using namespace std;
     c=a;
     a=b;
     b=c;
-   cout<<"Inside swabByValue function: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+   cout<<"Inside swapbyValue function: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 int main()
  
 { int a=4,b=8;
-cout<<"Before swabByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swapbyValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(a,b);
-cout<<"After swapByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"After swapbyValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 ~~~
 
 //output:
- ![image](https://github.com/user-attachments/assets/f472d5da-df92-419b-83f5-c74abe76a6ba)
+ ![image](https://github.com/user-attachments/assets/0bc4f980-3dd4-4b32-94a1-eb7a519462d8)
+
 
 ~~~//CALL BY REFERENCE
 
@@ -50,19 +51,21 @@ using namespace std;
     c=*a;
     *a=*b;
     *b=c;
-  cout<<"Inside swabByReference function: "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
+  cout<<"Inside swapByReference function: "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
     
 }
  int main()
  
 { int a=1,b=5;
-cout<<"Before swabByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swapByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(&a,&b); 
 cout<<"After swapByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 ~~~
 //output:
-![image](https://github.com/user-attachments/assets/dcc8bedf-5bcb-4bcb-934d-7d4f17c6be7e)
+ ![image](https://github.com/user-attachments/assets/a56e00ee-ba4c-4efa-ab63-9b4e4d368be3)
+ 
+
 
 # Conclusion
 we learnt to define class using call by reference and call by value.
