@@ -46,7 +46,9 @@ int main()
     return 0;
 }
 ~~~
-//output:
+
+
+ //output:
  ![image](https://github.com/user-attachments/assets/1400b420-4c91-49e1-b754-cbb296d86007)
 
 
