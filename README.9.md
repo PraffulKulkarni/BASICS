@@ -62,7 +62,7 @@ int main()
 }
 ~~~
 //output:
-![image](https://github.com/user-attachments/assets/09987634-83c4-4783-a417-a1208371a246)
+ ![image](https://github.com/user-attachments/assets/386657b5-ec34-43ad-af84-72d1513ec5e8)
 
  
 
