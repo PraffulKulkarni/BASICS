@@ -81,7 +81,8 @@ cout <<"surname: "<< surname<<endl;
 ~~~
 
     output:
-    ![image](https://github.com/user-attachments/assets/3ea028e5-083d-463d-ada5-b93639901927)
+ ![image](https://github.com/user-attachments/assets/cec9ce48-888e-476e-91c7-513f69d95e67)
+
 
 
 ~~~//AREA OF RECTANGLE
