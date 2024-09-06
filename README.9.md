@@ -113,10 +113,10 @@ int main()
 {
     int i, *ptr;
     int a[50]={1,2,3,4,5};
-    ptr=&a[0];
+    
     for(i=0;i<5;i++)
     {
-        cout<<*ptr<<endl;
+        cout<<*(a+i)<<endl;
         ptr++;
     }
 }
