@@ -93,8 +93,7 @@ int main(){
     }
 
 ~~~
-    // output:
-     ![image](https://github.com/user-attachments/assets/dc25d777-1120-43fb-84f6-b482b161dbec)
+// output: ![image](https://github.com/user-attachments/assets/dc25d777-1120-43fb-84f6-b482b161dbec)
 
 
 
