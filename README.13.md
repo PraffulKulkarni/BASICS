@@ -35,7 +35,7 @@ int main()
 //output:
 ![image](https://github.com/user-attachments/assets/4f7683e0-8785-43fa-ba3b-7e339bc04259)
 
-//Program 2 (Operator Overloading)
+~~~//Program 2 (Operator Overloading)
 #include<iostream>
 using namespace std;
 class Complex
@@ -73,6 +73,8 @@ int main()
     cout<<"Third complex number: ";
     c3.display();
 }
+~~~
+
 //output:
 ![image](https://github.com/user-attachments/assets/9fd713e4-10dd-40c2-811d-084814e8b521)
 
