@@ -69,7 +69,7 @@ int main() {
 ![image](https://github.com/user-attachments/assets/83ae29f5-042c-47a2-b3e8-af899daede89)
 
 
-//COPY CONSTRUCTOR
+~~~//COPY CONSTRUCTOR
 #include<iostream>
 using namespace std;
 class MyClass{
@@ -91,11 +91,12 @@ int main(){
     MyClass obj2 = obj1 ;
     return 0;
     }
+~~~
     // output:
     ![image](https://github.com/user-attachments/assets/df9f00ed-61d9-4f33-88cc-04b985892de6)
 
 
-//DEFAULT ARGUMENT
+~~~//DEFAULT ARGUMENT
 #include<iostream>
 using namespace std;
 class MyClass{
@@ -120,10 +121,11 @@ int main()
     MyClass obj1(1900,900, "Ronaldo");
     return 0;
     }
+~~~
 //output:
 ![image](https://github.com/user-attachments/assets/98b9af6f-216a-49f5-bf20-8cf1c930613e)
 
-//AREA OF RECTANGLE
+~~~//AREA OF RECTANGLE
 #include<iostream>
 using namespace std;
 class MyClass{
@@ -158,11 +160,12 @@ int main(){
 
     return 0;
     }
+~~~
   //output:
   ![image](https://github.com/user-attachments/assets/a546ef4f-554a-42ec-978d-8228f8bd4067)
 
 
-//DECONSTURCTOR
+~~~//DECONSTURCTOR
 #include<iostream>
 using namespace std;
 class MyClass{
@@ -179,5 +182,6 @@ class MyClass{
         MyClass obj;
         return 0;
     }
+~~~
 //output:
 ![image](https://github.com/user-attachments/assets/f2738aa8-2d92-4542-8382-5f736f2f9062)
