@@ -91,9 +91,11 @@ int main(){
     MyClass obj2 = obj1 ;
     return 0;
     }
+
 ~~~
     // output:
-    ![image](https://github.com/user-attachments/assets/df9f00ed-61d9-4f33-88cc-04b985892de6)
+     ![image](https://github.com/user-attachments/assets/dc25d777-1120-43fb-84f6-b482b161dbec)
+
 
 
 ~~~//DEFAULT ARGUMENT
