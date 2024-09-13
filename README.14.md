@@ -1,6 +1,6 @@
 exp 14:
 # codes:
-//Inheri
+~~~//Inheritance
  #include<iostream>
  using namespace std;
  class Student{
