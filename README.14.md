@@ -1,6 +1,23 @@
 exp 14:
+## AIM
+To learn about inheritance and its type in c++.
+
+## Software Used
+Online compiler
+
+## Problem Codes
+1.) Write a c++ code to do single inheritence.
+
+2.) Write a c++ code to do multiple inheritance.
+
+3.) Write a c++ code to do multilevel inheritance.
+
+4.) Write a c++ code to do hierarchical inheritance.
+
+## Theory
+The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object Oriented Programming in C++. In this article, we will learn about inheritance in C++, its modes and types along with the information about how it affects different properties of the class.
 # codes:
-~~~//Inheritance
+~~~//Single Inheritance
  #include<iostream>
  using namespace std;
  class Student{
@@ -103,4 +120,45 @@ exp 14:
 //output:
 ![image](https://github.com/user-attachments/assets/f6fab798-e059-40ff-87a1-984054a30da0)
 
+~~~//Multiple:
+#include <iostream>
+using namespace std;
 
+class Engine {
+    public :
+
+
+    void start(){
+        cout<< "Engine starts"<<endl;
+        
+
+    }
+};
+class Transmission{
+    public:
+   void shiftGear(){
+    cout<<"Transmission shifts gear"<<endl;
+   }
+   };
+
+    class Car : public Engine, public Transmission {
+        public:
+        void drive(){
+            cout<<"Car is being driven"<<endl;
+        }
+    };
+
+int main()
+
+{
+    Car d;
+    d.shiftGear();
+    d.drive();
+    return 0;
+}
+~~~
+//output:
+![image](https://github.com/user-attachments/assets/49a585e8-21b2-407f-bb9f-dcb620e92f6c)
+
+## conclusion:
+we learnt about different types of inheritance.
