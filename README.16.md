@@ -1,4 +1,4 @@
-// exception handling:
+~~~// exception handling:
  #include<iostream>
  using namespace std;
   int main(){
@@ -18,6 +18,7 @@
       }
           
 }
+~~~
 //output:
 ![image](https://github.com/user-attachments/assets/b6dd83a4-ae8f-4bac-b58e-c25fd54a5f0b)
 
