@@ -1,3 +1,18 @@
+## AIM
+To learn about recursion in c++.
+
+## Problem Statement
+1.) Write a c++ program to get factorial of a number using recursion.
+
+2.) Write a c++ program to find fibonacci number in the fibonacci sequence using recursion.
+
+3.) Write a c++ program to find sum of n natural numbers using recursion.
+
+## Theory
+Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+
+Recursion may be a bit difficult to understand. The best way to figure out how it works is to experiment with it.
+
 ~~~// Recursion:
   #include<iostream>
   using namespace std;
