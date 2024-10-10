@@ -1,4 +1,13 @@
- ~~~// program to check nodal:
+# AIM
+To use linked list in c++.
+
+# Problem Statement
+1.) To create a node in c++.
+
+2.) To add node in c++.
+
+# Theory
+n C++, a linked list is a linear data structure that allows the users to store data in non-contiguous memory locations. A linked list is defined as a collection of nodes where each node consists of two members which represents its value and a next pointer which stores the address for the next node. In this article, we will learn about the linked list, its implementation, and its practical applications. ~~~// program to check nodal:
  #include<iostream>
  using namespace std;
  class Link{
@@ -21,7 +30,7 @@
 //outut:
 ![image](https://github.com/user-attachments/assets/be363950-4122-4b25-8ed7-115eb590ebb4)
 
-//program to add nodal:
+~~~//program to add nodal:
  #include<iostream>
  using namespace std;
  class Link{
@@ -58,7 +67,11 @@
      insert_head(head,35);
      disp(head);
  }
-
+~~~
  //output:
  ![image](https://github.com/user-attachments/assets/56b620f3-2b82-43ca-a922-3cc55c0055d0)
+
+ # Conclusion:
+ we learnt how to create and add node in c++ program
+ 
 
