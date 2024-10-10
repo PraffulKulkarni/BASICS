@@ -5,8 +5,7 @@
      float n;
       cout<<"enter a positive number: ";
       cin>>n;
-       
-      try{
+       try{
           if(n<0){
               throw n;
           }
