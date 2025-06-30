@@ -26,7 +26,7 @@ cout<<"access denied";
 enter your password: iowef
 access denied
 
-// program to ceck the grade:
+// program to check the grade:
 #include <iostream>
 using namespace std;
 int main()
